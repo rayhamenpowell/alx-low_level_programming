@@ -1,15 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+
+/**
 * main - Entry point to the program
 *
 * Description - The program generate a random number
 * Return: always (0)
-*
-* more headers goes there
-*
-* betty styles doc for function main goes there
 *
 */
 int main(void)
