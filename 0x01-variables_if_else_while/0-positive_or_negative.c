@@ -14,12 +14,11 @@ int main(void)
 {
 	int n;
 
-	srand(time(NULL));
+	srand(time(0));
 	n = rand() % 200 - 100;
 	/* your code goes here */
 	if (n > 0)
 	{
-		int n = -98;
 		printf("%d is positive\n", n);
 	}
 	else if (n < 0)
