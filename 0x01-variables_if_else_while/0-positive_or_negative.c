@@ -15,7 +15,7 @@ int main(void)
 	int n;
 
 	srand(time(NULL));
-	n = rand() - (RAND_MAX / 2);
+	n = rand() % 200 - 100;
 	/* your code goes here */
 	if (n > 0)
 	{
