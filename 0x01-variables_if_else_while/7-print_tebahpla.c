@@ -2,7 +2,7 @@
 /**
  * main - print alphabet in reverse mode
  *
- * Return (0)
+ * Return: always (0)
  *
  * Description - the alphabet in reverse order starting from z to a
  *
