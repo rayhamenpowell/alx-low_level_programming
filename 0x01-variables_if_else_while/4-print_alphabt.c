@@ -9,13 +9,12 @@ int main(void)
 {
 	char alphabet = 'a';
 
-	while (alphabet <= 'a')
+	for (; alphabet <= 'z'; alphabet++)
 	{
 		if (alphabet != 'q' && alphabet != 'e')
 		{
 			putchar(alphabet);
 		}
-		alphabet++;
 	}
 	putchar('\n');
 	return (0);
