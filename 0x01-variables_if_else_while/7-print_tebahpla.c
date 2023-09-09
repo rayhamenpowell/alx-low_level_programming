@@ -4,6 +4,8 @@
  *
  * Return (0)
  *
+ * Description - the alphabet in reverse order starting from z to a
+ *
  */
 int main(void)
 {
