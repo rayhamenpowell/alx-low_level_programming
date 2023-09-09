@@ -16,17 +16,10 @@ int main(void)
 	{
 		while (num_2 <= '9')
 		{
-<<<<<<< HEAD
 			if (num_1 < num_2)
 			{
 				putchar(num_1);
 				putchar(num_2);
-=======
-			if (num_1 > num_2)
-			{
-				putchar(num_1 + '0');
-				putchar(num_2 + '0');
->>>>>>> 0687b7e34c7114cd8d91be1eaa4638b5e97936bd
 				if (num_1 != '8' || (num_1 == '8' && num_2 != '9'))
 				{
 					putchar(',');
@@ -35,10 +28,6 @@ int main(void)
 			}
 			num_2++;
 		}
-<<<<<<< HEAD
-=======
-		num_2 = '0';
->>>>>>> 0687b7e34c7114cd8d91be1eaa4638b5e97936bd
 		num_1++;
 	}
 	putchar('\n');
