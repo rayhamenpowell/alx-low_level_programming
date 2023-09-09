@@ -21,11 +21,11 @@ int main(void)
 				{
 					if (((num3 + num4) > (num1 + num2) && num3 >= num1) || num1 < num3)
 					{
-						putchar(num1);
-						putchar(num2);
+						putchar(num1 + '0');
+						putchar(num2 + '0');
 						putchar(' ');
-						putchar(num3);
-						putchar(num4);
+						putchar(num3 + '0');
+						putchar(num4 + '0');
 					if (!(num1 == 9 && num2 == 8 && num3 == 9 && num4 == 9))
 					{
 						break;
