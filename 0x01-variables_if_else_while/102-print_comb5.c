@@ -26,11 +26,7 @@ int main(void)
 						putchar(' ');
 						putchar(num3 + '0');
 						putchar(num4 + '0');
-					if (!(num1 == 9 && num2 == 8 && num3 == 9 && num4 == 9))
-					{
-						break;
-					}
-					else
+					if (!(num1 == 9 && num2 == 9 && num3 == 9 && num4 == 9))
 					{
 						putchar(',');
 						putchar(' ');
@@ -38,10 +34,15 @@ int main(void)
 					}
 					num4++;
 				}
-			}	num3++;
-		}	num2++;
-	}	num1++;
+				num4 = 0;
+				num3++;
+			}
+			num3 = 0;
+			num2++;
+		}
+		num2 = 0;
+		num1++;
+	}
 	putchar('\n');
 	return (0);
 }
-
